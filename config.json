@@ -1,3 +1,4 @@
 {
-    "some config": "value"
+    "some config": "value",
+    "another config": 42
 }
