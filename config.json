@@ -1,4 +1,5 @@
 {
     "some config": "value",
-    "another config": 42
+    "another config": 42,
+    "yet another config": true
 }
