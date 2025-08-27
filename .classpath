@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/caixa-lib/lib/log/log4j-api-2.3.2.jar" sourcepath="/caixa-lib/lib/log/log4j-api-2.3.2-sources.jar"/>
+	<classpathentry kind="lib" path="/caixa-lib/lib/was-8.5/j2ee.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/caixa-lib/lib/was/javadoc-6.0.1.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/caixa-dominio"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/caixa-negocio-infra"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/caixa-util"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/silce-negocio-infra"/>
+	<classpathentry kind="lib" path="/caixa-lib/lib/was-8.5/com.ibm.ws.jpa.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/silce-dominio"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/silce-servico-conversor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/silce-negocio-interfaces"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/silce-util-cache"/>
+	<classpathentry kind="lib" path="/caixa-lib/lib/siran/RANCrypto-Win.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/silce-test-negocio"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="lib" path="/caixa-lib/lib/powermock/powermock-easymock-1.5.1-full.jar"/>
+	<classpathentry kind="lib" path="/caixa-lib/lib/powermock/easymock-3.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
